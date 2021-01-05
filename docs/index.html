@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course number 2</title>
+<meta name="author" content="R.M. Meza">
+<meta name="keywords" content="HTML, CSS, Web Design, internal stylesheets">
+<meta name="description" content="This is the second practical course in Web design">
+<style>
+* {
+  box-sizing: border-box;
+}
+p {
+	color: DarkSlateGrey;
+	text-align: justify;
+	}
+.cv-section {
+	background-color: Linen;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 3px solid LightSalmon;
+	padding: 0px 5px 0px 10px;
+	margin: 10px 0px 10px 0px;
+	}
+.cv-section h3 {
+		color: Navy;
+		}
+.left {
+		float: left;
+		width: 15%;
+		padding-right: 5px;
+	  }
+.right {
+		float: left;
+		width: 85%;
+		padding-left: 5px;
+	}
+.icon {
+	padding-bottom: 5px;
+	}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#cover {
+		width: 100%;
+		}
+header {
+		background-color:PaleGoldenRod;
+		border: 3px dotted Sienna;
+		}
+header h1 {
+ text-align: center;
+	}
+header p,h3 {
+ padding: 0px 5px 0px 10px;
+	}	
+</style>
+</head>
+<body>
+<header>
+<h1>R.M Meza's personal Webpage</h1>
+<img id="cover" src="hipster1.jpg" alt="Radu Meza as a hipster">
+<h3>Short bio</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor lectus sit amet risus ultricies, quis commodo ex vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras enim magna, cursus sit amet malesuada non, bibendum eu ex. Cras id laoreet urna. Aliquam eleifend tempor mi rutrum dignissim. Proin ex dolor, dictum sed mauris et, luctus commodo tortor. Mauris et neque mollis, rhoncus felis vel, dapibus massa. Praesent pharetra metus nisl, vehicula facilisis orci volutpat id. Aliquam auctor volutpat felis, ac euismod ipsum ullamcorper in. Praesent metus tortor, facilisis porta venenatis at, sollicitudin venenatis erat. Etiam id urna ut augue interdum fringilla eu eget nisl. Aliquam commodo odio sit amet justo consectetur tristique vitae sit amet lectus. Integer eget sapien condimentum, vestibulum nunc quis, ullamcorper tellus. Donec malesuada nulla dolor, in volutpat sem sagittis a.
+</p>
+</header>
+<section class="cv-section clearfix">
+	<h3>Education</h3>
+	<img class="left icon" src="education.png" alt="online education icon">
+	<p class="right">
+	Cras venenatis tempus leo, eu pharetra purus molestie in. Ut pharetra, erat eget pulvinar pellentesque, mauris ante facilisis est, ut maximus ipsum diam id nisl. Suspendisse potenti. Mauris in tempus libero. Nunc sed dui a purus vestibulum interdum. Nam tempus semper magna. Cras quis odio vitae ante molestie iaculis et non mauris. Cras eu elit ante. Integer sapien nisl, scelerisque sit amet lorem feugiat, mattis pulvinar sem. Morbi scelerisque, dolor a aliquam sollicitudin, magna mi congue orci, eget ultricies dui augue vitae justo. Sed hendrerit ligula nec leo porttitor interdum.
+	</p>
+</section >
+<section class="cv-section  clearfix">
+	<h3>Skills</h3>
+	<img class="left icon" src="skills.png" alt="skills icon">
+	<p class="right">
+	Ut rutrum efficitur condimentum. Proin ornare turpis vel interdum blandit. Aenean lacus lorem, efficitur quis dictum et, condimentum ut leo. Nam facilisis purus sed tincidunt sagittis. Nullam in urna nec nisl convallis sagittis fringilla sed arcu. Nullam sed arcu id mauris ornare iaculis. In hac habitasse platea dictumst. Praesent ornare ultrices lorem, sit amet lacinia magna aliquam non. Sed hendrerit semper urna id congue. Duis eget quam vitae sapien dapibus consequat a in tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nullam vel diam tincidunt, tincidunt velit vel, commodo elit. Mauris ullamcorper ornare gravida. Fusce vitae rutrum lorem.
+	</p>
+</section>
+<div class="cv-section  clearfix">
+	<h3>Work experience</h3>
+	<img class="left icon" src="work.png" alt="work icon">
+	<p class="right">
+	Sed maximus odio at nulla suscipit, non vehicula erat finibus. Praesent non nunc suscipit, tristique lacus quis, elementum lorem. Maecenas eu elit fringilla, ultricies est non, consectetur tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam venenatis urna vel enim tempor iaculis. Morbi pretium porta tempus. Etiam imperdiet, nulla et sagittis placerat, odio nunc porta libero, id tempus quam ex suscipit metus. Donec a pharetra metus. Ut eget orci vel felis dictum volutpat nec ut nibh. Maecenas aliquam sem id dolor maximus vestibulum. Aliquam in scelerisque nunc. Proin maximus feugiat purus, sit amet tempor magna porta in. Suspendisse non porta tortor, sit amet laoreet felis. Etiam commodo fringilla lectus, non consequat elit tempor quis. Nam luctus orci quis sodales convallis. Fusce sit amet erat sit amet est aliquam auctor.
+	</p>
+</div>
+<div class="cv-section  clearfix">
+	<h3>Protfolio/Projects</h3>
+	<img class="left icon" src="portfolio.png" alt="portfolio icon">
+	<p class="right">
+	Fusce vel faucibus diam. Nam auctor rhoncus eros, at semper odio semper sit amet. Nunc lobortis elit lectus, sit amet tempor ante viverra lobortis. Ut efficitur justo sit amet aliquet gravida. Cras ut enim ligula. Suspendisse interdum finibus facilisis. Proin consectetur lectus eu quam tempus, quis rhoncus dui rutrum.
+	</p>
+</div>
+</body>
+</html>
